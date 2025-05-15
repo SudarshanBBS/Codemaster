@@ -1,0 +1,174 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CodeMaster - Learn Programming</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f0f2f5;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #111827;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background: #1f2937;
+    }
+    nav button {
+      padding: 1rem;
+      margin: 0.5rem;
+      background: #374151;
+      border: none;
+      color: white;
+      cursor: pointer;
+      border-radius: 8px;
+    }
+    nav button.active {
+      background: #2563eb;
+    }
+    section {
+      display: none;
+      padding: 2rem;
+      background: white;
+      margin: 1rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+    section.active {
+      display: block;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #111827;
+      color: white;
+    }
+    .unlock-btn {
+      background-color: #10b981;
+      color: white;
+      padding: 0.5rem 1rem;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 1rem;
+    }
+    .locked-content {
+      display: none;
+      margin-top: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>CodeMaster - Learn Programming Languages</h1>
+    <p>Developed by Sudarshan Hadmode</p>
+  </header>  <nav>
+    <button data-target="home" class="active">Home</button>
+    <button data-target="python">Python</button>
+    <button data-target="html">HTML</button>
+    <button data-target="css">CSS</button>
+    <button data-target="ai">AI & Alumni</button>
+  </nav>  <section id="home" class="active">
+    <h2>Welcome to CodeMaster</h2>
+    <p>Learn programming languages from the basics with clear explanations and practical lessons. Start your coding journey now!</p>
+    <h3>Subscription Details:</h3>
+    <ul>
+      <li>Monthly Plan: ₹600</li>
+      <li>Discounted Price: ₹560</li>
+      <li>Per Day Cost: ₹20</li>
+    </ul>
+    <h4>Payment Methods:</h4>
+    <p>WhatsApp: <a href="https://wa.me/919156198029" target="_blank">9156198029</a></p>
+    <p>Email: socialsudarshan8@gmail.com</p>
+    <p>Instagram: <a href="https://instagram.com/sudarshan.0509" target="_blank">@sudarshan.0509</a></p>
+  </section>  <section id="python">
+    <h2>Learn Python</h2>
+    <div id="python-unlock">
+      <button class="unlock-btn" data-lang="python">Subscribe to Unlock Lessons</button>
+    </div>
+    <div class="locked-content" id="python-content">
+      <h3>Python Basics</h3>
+      <ul>
+        <li><strong>Developer:</strong> Guido van Rossum</li>
+        <li><strong>First Released:</strong> 1991</li>
+        <li><strong>Key Uses:</strong> Web Development, Automation, Data Science, Machine Learning, AI</li>
+        <li><strong>Advantages:</strong> Easy syntax, large community, powerful libraries, cross-platform</li>
+        <li><strong>Important Concepts to Learn:</strong> Variables, Data Types, Loops, Functions, Classes, Modules</li>
+      </ul>
+      <p><strong>Subscribe to learn more</strong></p>
+      <p>WhatsApp: <a href="https://wa.me/919156198029" target="_blank">9156198029</a></p>
+      <p>Instagram: <a href="https://instagram.com/sudarshan.0509" target="_blank">@sudarshan.0509</a></p>
+    </div>
+  </section>  <section id="html">
+    <h2>Learn HTML</h2>
+    <div id="html-unlock">
+      <button class="unlock-btn" data-lang="html">Subscribe to Unlock Lessons</button>
+    </div>
+    <div class="locked-content" id="html-content">
+      <h3>HTML Basics</h3>
+      <ul>
+        <li><strong>Developer:</strong> Tim Berners-Lee</li>
+        <li><strong>Purpose:</strong> To structure and present content on the web</li>
+        <li><strong>Important Tags:</strong> &lt;html&gt;, &lt;head&gt;, &lt;body&gt;, &lt;title&gt;, &lt;h1&gt; to &lt;h6&gt;, &lt;p&gt;, &lt;a&gt;, &lt;img&gt;, &lt;div&gt;</li>
+        <li><strong>Advantages:</strong> Easy to learn, forms the foundation of web development, universally supported</li>
+        <li><strong>Key Concepts:</strong> Elements, Attributes, Nesting, Hyperlinks, Lists</li>
+      </ul>
+      <p><strong>Subscribe to learn more</strong></p>
+      <p>WhatsApp: <a href="https://wa.me/919156198029" target="_blank">9156198029</a></p>
+      <p>Instagram: <a href="https://instagram.com/sudarshan.0509" target="_blank">@sudarshan.0509</a></p>
+    </div>
+  </section>  <section id="css">
+    <h2>Learn CSS</h2>
+    <div id="css-unlock">
+      <button class="unlock-btn" data-lang="css">Subscribe to Unlock Lessons</button>
+    </div>
+    <div class="locked-content" id="css-content">
+      <h3>CSS Basics</h3>
+      <ul>
+        <li><strong>Developer:</strong> Håkon Wium Lie</li>
+        <li><strong>Purpose:</strong> To style and layout web pages</li>
+        <li><strong>Features:</strong> Control over fonts, colors, spacing, layout, responsiveness</li>
+        <li><strong>Advantages:</strong> Separates content from design, easier site maintenance, reusability</li>
+        <li><strong>Key Concepts:</strong> Selectors, Properties, Values, Box Model, Media Queries</li>
+      </ul>
+      <p><strong>Subscribe to learn more</strong></p>
+      <p>WhatsApp: <a href="https://wa.me/919156198029" target="_blank">9156198029</a></p>
+      <p>Instagram: <a href="https://instagram.com/sudarshan.0509" target="_blank">@sudarshan.0509</a></p>
+    </div>
+  </section>  <section id="ai">
+    <h2>AI Assistant & Alumni</h2>
+    <p>AI developed by Sudarshan Hadmode & Soham Takale.</p>
+    <p>Learning platform developed by Sudarshan Hadmode.</p>
+    <h4>New Assistant Coming Soon...</h4>
+    <p><strong>Certified by Learners Expert. All rights reserved © 2025.</strong></p>
+  </section>  <footer>
+    <p>CodeMaster - Learn, Code, Build | All rights reserved © 2025</p>
+  </footer>  <script>
+    const buttons = document.querySelectorAll("nav button");
+    buttons.forEach(button => {
+      button.addEventListener("click", () => {
+        const target = button.getAttribute("data-target");
+        document.querySelectorAll("section").forEach(section => section.classList.remove("active"));
+        buttons.forEach(btn => btn.classList.remove("active"));
+        document.getElementById(target).classList.add("active");
+        button.classList.add("active");
+      });
+    });
+
+    const unlockButtons = document.querySelectorAll('.unlock-btn');
+    unlockButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        const lang = btn.getAttribute('data-lang');
+        document.getElementById(`${lang}-content`).style.display = 'block';
+        btn.style.display = 'none';
+      });
+    });
+  </script></body>
+</html>
